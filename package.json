@@ -1,0 +1,33 @@
+{
+  "name": "chat-on-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.23.4",
+    "@vercel/kv": "^1.0.1",
+    "98.css": "^0.1.20",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "use-sound": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vercel/toolbar": "^0.1.14",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
